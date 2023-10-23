@@ -1,0 +1,11 @@
+
+[submodule "my-submodule"]
+    path = my-submodule-directory
+    url = https://github.com/akanksha744/ChatWave-Realtime-chat-App-.git
+
+
+
+
+
+
+
