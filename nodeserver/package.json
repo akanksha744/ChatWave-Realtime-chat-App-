@@ -6,16 +6,9 @@
   "scripts": {
     "start": "nodemon index.js"
 },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/akanksha744/ChatWave-RealTime-chat-App-.git"
-  },
+ 
   "author": "Akanksha",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/akanksha744/ChatWave-RealTime-chat-App-/issues"
-  },
-  "homepage": "https://github.com/akanksha744/ChatWave-RealTime-chat-App-#readme",
   "dependencies": {
     "socket.io": "^4.7.2"
   },
