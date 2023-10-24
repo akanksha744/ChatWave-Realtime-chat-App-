@@ -1,4 +1,5 @@
 const socket = io("http://localhost:8000", { transports: ["websocket"] });
+ socket = io();
 
 
 const form = document.getElementById('send-container');
