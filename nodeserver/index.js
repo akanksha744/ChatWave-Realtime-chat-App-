@@ -1,5 +1,4 @@
-const socket = io("http://localhost:8000", { transports: ["polling"] });
-
+const io = require('socket.io') (8000)
 
 const users = {};
 
