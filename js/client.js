@@ -1,5 +1,10 @@
 const socket = io("http://localhost:8000", { transports: ["websocket"] });
+<<<<<<< HEAD
  socket = io();
+=======
+var socket = io();
+
+>>>>>>> e0a06d1dc48fc20b039f2cd154a71f26e7359c22
 
 
 const form = document.getElementById('send-container');
