@@ -1,5 +1,4 @@
-import { io } from "socket.io-client";
-const io = require('socket.io') (8000)
+const io = require('socket.io') (9000);
 
 const users = {};
 
