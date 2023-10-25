@@ -32,7 +32,9 @@ socket.on('user-joined', userName => {
 });
 
 socket.on('receive', data => {
-    append(`${data.userName}: ${data.message}`, 'left');
+    if(data.userName != userName){
+        append(`${data.userName}: ${data.message}`, 'left');
+    }
 });
 
 socket.on('left', userName => {
