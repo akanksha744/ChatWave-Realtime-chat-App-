@@ -1,4 +1,4 @@
-const socket = io("http://localhost:9000", { transports: ["websocket"] });
+const socket = io("http://localhost:9000");
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
