@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChatWave - Realtime Node Socket.io Chat App</title>
-    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="http://localhost:9000/socket.io/socket.io.js"></script>
     <script defer src="js/client.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -16,11 +16,10 @@
         <h1>Welcome to ChatWave</h1>
     </nav>
     <div class="container">
-        <!-- Messages will be displayed here -->
     </div>
     <div class="send">
         <form action="#" id="send-container">
-            <input type="text" id="messageInp" placeholder="Enter message" autofocus>
+            <input type="text" name="messageInp" id="messageInp" autofocus>
             <button class="btn" type="submit">Send</button>
         </form>
     </div>
